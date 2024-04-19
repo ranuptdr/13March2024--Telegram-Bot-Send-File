@@ -1,0 +1,16 @@
+convert  libraries convert to requirements.txt file command =======> pip freeze > requirements.txt
+
+
+--------------------------------------telegrambot-----------------------------------------
+
+token api  => https://api.telegram.org/bot6959397103:AAE0ukBh8tQPR8GZFjc83zJxCBWcRRM0QIk/getMe
+formula    => https://api.telegram.org/bot<token>/getMe
+
+chatid api => https://api.telegram.org/bot6959397103:AAE0ukBh8tQPR8GZFjc83zJxCBWcRRM0QIk/getUpdates
+formula    => https://api.telegram.org/bot<token>/getUpdates
+
+sendmsg api => https://api.telegram.org/bot6959397103:AAE0ukBh8tQPR8GZFjc83zJxCBWcRRM0QIk/sendMessage?chat_id=5656784248&text=Hello everyone
+formula     => https://api.telegram.org/bot<token>/sendMessage?chat_id=<chatId>&text=Keso ho sabhi
+
+telegram  bot  bnane ke liye telegram par BotFather  par jae or fir /newbot mag send kare fir bot name de fir user name de 
+ but username me last me _bot hona chahiye for example <ranubot_bot> 
